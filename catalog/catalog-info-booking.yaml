@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: booking
+  description: booking
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=booking'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: developer-team
