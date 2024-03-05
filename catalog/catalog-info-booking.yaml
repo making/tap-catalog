@@ -4,7 +4,7 @@ metadata:
   name: booking
   description: booking
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=booking'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=jrexp'
 spec:
   type: service
   lifecycle: experimental
